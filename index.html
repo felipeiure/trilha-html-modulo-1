@@ -1,62 +1,137 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Página - Módulo I - Primeiros Passos com HTML</title>
+   <!-- Felipe Iure - film.dev9@gmail.com -->
 </head>
 <body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+   <h1 id="topo">Módulo 1 - Primeiros Passos com HTML</h1>
+   <hr />
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+   <h2>Índice</h2>
+   <ul>
+      <li><a href="#historia">História do HTML</a></li>
+      <li><a href="#estrutura">Estrutura básica do HTML</a></li>
+      <li><a href="#tags">Tags HTML</a></li>
+      <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+      <li><a href="#referencias">Links de referências</a></li>
+   </ul>
+   <hr />
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+   <h2 id="historia">História do HTML</h2>
+   <p>
+      <i>HTML</i> foi inventado por um físico chamado <strong>Tim Berners-Lee</strong>, e teve como objetivo facilitar a comunicação e compartilhamento de documentos entre pesquisadores. Ele iniciou o projeto em 1980 e só teve a <a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank"><mark>primeira página HTML</mark></a> publicada em 1991. Ele também criou o protocolo <u>HTTP</u> e o primeiro navegador chamado <strong>World Wide Web</strong>, que se tornou o famoso <i>WWW</i> (Rede Mundial de Computadores)</a>.
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+      <blockquote>Ao longo dos anos o HTML vem evoluindo e hoje estamos na versão 5, que foi desenvolvida para aperfeiçoar a experiência da World Wide Web para os desenvolvedores e usuários finais.</blockquote>
+   </p>
+   <p>(<a href="#topo">Voltar</a>)</p><br />
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+<!-- Estrutura -->
+   <h2 id="estrutura">Estrutura básica do HTML</h2>
+   <p>        
+      O HTML tem basicamente três partes, a primeira é a tag <code>&lt;html&gt;</code> que contém todas as demais, ela é a raiz do documento HTML.
+   </p>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+   <p>        
+      Logo em seguida vem a tag <code>&lt;head&gt;</code> que é o cabeçalho do documento html, nela são dadas informações gerais, como título, folhas de estilo, scripts e palavras-chaves.
+   </p>
 
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+   <p>        
+      Por último a tag <code>&lt;body&gt;</code> que é o corpo da página HTML, é onde o contéudo será mostrado no navegador para o usúario, sejam imagens, vídeos, textos, etc
+   </p>
+   <p>(<a href="#topo">Voltar</a>)</p><br />
 
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
+<!-- Tags -->
+   <h2 id="tags">Tags HTML</h2>
+   <p>
+      <code>&lt;h1&gt;</code>
+      <code>&lt;h2&gt;</code>
+      <code>&lt;h3&gt;</code>
+      <code>&lt;h4&gt;</code>
+      <code>&lt;h5&gt;</code>
+      <code>&lt;h6&gt;</code> - Usado para títulos, sendo h1 com maior relevância (semântico)
+      <h1>Exemplo h1</h1>
+      <h2>Exemplo h2</h2>
+      <h3>Exemplo h3</h3>
+      <h4>Exemplo h4</h4>
+      <h5>Exemplo h5</h5>
+      <h6>Exemplo h6</h6>
+   </p>
+   <p><code>&lt;p&gt;</code> - Para parágrafo</p>
+   <p><code>&lt;mark&gt;</code> - Marca <mark>texto</mark></p>
+   <p><code>&lt;small&gt;</code> - Reduz <small>tamanho do texto</small></p>
+   <p><code>&lt;strong&gt;</code> - Texto <strong>negrito</strong> e também tem relevância (semântica)</p>
+   <p><code>&lt;i&gt;</code> - Texto <i>itálico</i></p>
+   <p><code>&lt;u&gt;</code> - Texto <u>sublinhado</u></p>
+   <p><code>&lt;a&gt;</code> - Cria um vínculo<a href="https://dio.me" target="_blank">(link)</a> com outro site, página, imagem, etc</p>
+   <p><code>&lt;hr&gt;</code> - Quebra de linha, traça uma linha horizontal</p>
+   <p><code>&lt;sup&gt;</code> - Deixa o texto sobrescrito <sup>(acima)</sup> do resto do conteúdo</p>
+   <p><code>&lt;sub&gt;</code> - Deixa o texto subscrito <sub>(abaixo)</sub> do resto do conteúdo</p>
+   <p><code>&lt;blockquote&gt;</code> - Usado para citação</p>
+   <p><code>&lt;del&gt;</code> - Define um <del>texto</del> que foi excluído do documento, e traça uma linha no meio do texto</p>
+   <p><code>&lt;abbr&gt;</code> - Usado para abreviação. Exemplo: <abbr title="HyperText Markup Language">HTML</abbr></p>
+
+   <h4>Em desuso</h4>
+   <p><code>&lt;font&gt;</code> - Essa tag foi usada em HTML4, para dizer o tamanho da fonte, cor e tipo de fonte.</p>
+
+   <p>(<a href="#topo">Voltar</a>)</p><br />
+
+<!-- LISTAS -->
+   <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
+   <p>
+      <strong><u>Listas Ordenadas</u></strong> é uma lista de itens númerados.
+      Para criar listas ordenadas usamos a tag <code>&lt;ol&gt;</code> seguido da tag <code>&lt;li&gt;</code>.
+   </p>
+     
+   <h5>Exemplo do código:</h5>
+   <code>
+      &lt;ol&gt;<br />
+         &lt;li&gt;José&lt;/li&gt;<br />
+         &lt;li&gt;Ricardo&lt;/li&gt;<br />
+      &lt;/ol&gt;<br />
+   </code>
+   
+   <h5>Resultado no navegador:</h5>
+   <code>
+      <ol>
+         <li>José</li>
+         <li>Ricardo</li>
+      </ol>
+   </code>
+
+   <p>
+      <strong><u>Listas Não Ordenadas</u></strong> é uma lista de itens não numerados, normalmente listados com círculos pretos. Nele usamos a tag <code>&lt;ul&gt;</code> seguido da tag <code>&lt;li&gt;</code>.
+   </p>
+   
+   <h5>Exemplo do código:</h5>
+   <code>
+      &lt;ul&gt;<br />
+         &lt;li&gt;Arroz&lt;/li&gt;<br />
+         &lt;li&gt;Feijão&lt;/li&gt;<br />
+      &lt;/ul&gt;<br />
+   </code>
+
+   <h5>Resultado no navegador:</h5>
+   <code>
+      <ul>
+         <li>Arroz</li>
+         <li>Feijão</li>
+      </ul>
+   </code>
+
+   <p>(<a href="#topo">Voltar</a>)</p><br />
+
+<!-- REFERÊNCIAS -->
+   <h2 id="referencias">Links de referências</h2>
+   <ul>
+      <li><a href="https://dio.me" target="_blank">dio.me</a></li>
+      <li><a href="https://w3c.org" target="_blank">w3c.org</a></li>
+      <li><a href="https://developer.mozilla.org/" target="_blank">developer.mozilla.org</a></li>
+      <li><a href="http://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">info.cern.ch</a></li>
+   </ul>
 
 </body>
 </html>
